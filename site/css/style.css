@@ -19,6 +19,17 @@ body {
 p {font-family: arial;
 	font-size: 20px;
 	}
+.left{
+	width: 40%;
+	float: left;
+}
+.right{
+		width: 40%;
+	float: right;
+}
+.centr{
+	clear: both;
+}
 li {
 	display: inline; /* Отображать как строчный элемент */
     margin-right: 5px; /* Отступ слева */
@@ -40,7 +51,6 @@ header {
 	min-height: 800px;
 	margin-bottom: 25px;
 		}
-
 footer {
 	background-color: white;
 	opacity: 0.9;
