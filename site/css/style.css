@@ -1,21 +1,8 @@
 *{
 	margin: 0;
 	padding: 10px;
-	box-sizing: border-box;
 }
-.contact{
-		width: 280px;
-		padding-top: 50px;
-			float: right;
-			font-family: arial;
-	font-size: 1.5em;
-	color: blue;
-}
-.logo{
-	width: 180px;
-	float: left;
-	padding: 0px;
-	}
+
 body {
 	background-image: url(../img/bg.jpg); /* Путь к фоновому изображению */
     background-color: #c7b39b; /* Цвет фона */
@@ -30,19 +17,8 @@ body {
 	margin-bottom: 25px;	
 	}
 p {font-family: arial;
-	font-size: 20px;
+	font-size: 30px;
 	}
-.left{
-	width: 50%;
-	float: left;
-}
-.right{
-		width: 50%;
-	float: right;
-}
-.centr{
-	clear: both;
-}
 li {
 	display: inline; /* Отображать как строчный элемент */
     margin-right: 5px; /* Отступ слева */
@@ -54,28 +30,24 @@ header {
 	border-radius: 15px;
 	margin-bottom: 25px;
 	border: 1px double black;
-	height: 180px;
 	}
-
 .contents {
 	background-color: white;
 	opacity: 0.9;
 	border-radius: 15px;
-	padding: 15px;
+	padding: 5px;
 	border: 1px double black;
+	min-height: 800px;
 	margin-bottom: 25px;
 		}
+
 footer {
 	background-color: white;
 	opacity: 0.9;
 	border-radius: 5px;
 	padding: 5px;
 	border: 1px double black;
-	height: 50px;
 	}
-footer div {
-	float: right;
-}
 
 .navi a {
 	color: red;
