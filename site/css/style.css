@@ -1,56 +1,48 @@
-<<<<<<< HEAD
+
 *{
 	margin: 0;
 	padding: 10px;
 	box-sizing: border-box;
 }
 .contact{
+	float: right;
+	font-family: arial;
 		width: 280px;
-		padding-top: 50px;
-			float: right;
-			font-family: arial;
+	padding-top: 50px;
 	font-size: 1.5em;
-	color: blue;
-}
+	}
 .logo{
 	width: 180px;
 	float: left;
 	padding: 0px;
+
 	}
 body {
 	background-image: url(../img/bg.jpg); /* Путь к фоновому изображению */
     background-color: #c7b39b; /* Цвет фона */
     background-repeat: repeat;
+    	min-width: 510px;
 	}
 .navi {
-	background-color: white;
+	background-color: #AB65CE;
 	opacity: 0.9;
 	border-radius: 50px;
 	padding: 5px;
 	border: 1px double black;
-	margin-bottom: 25px;	
+	margin-bottom: 25px;
+	height: 50px;	
 	}
 p {font-family: arial;
 	font-size: 20px;
 	}
-.left{
-	width: 50%;
-	float: left;
-}
-.right{
-		width: 50%;
-	float: right;
-}
-.centr{
-	clear: both;
-}
+
 li {
 	display: inline; /* Отображать как строчный элемент */
     margin-right: 5px; /* Отступ слева */
     padding: 3px; /* Поля вокруг текста */
 	}
 header {
-	background-color: white;
+	background-color: #AB65CE;
 	opacity: 0.9;
 	border-radius: 15px;
 	margin-bottom: 25px;
@@ -59,7 +51,7 @@ header {
 	}
 
 .contents {
-	background-color: white;
+	background-color: #AB65CE;
 	opacity: 0.9;
 	border-radius: 15px;
 	padding: 15px;
@@ -67,22 +59,76 @@ header {
 	margin-bottom: 25px;
 		}
 footer {
-	background-color: white;
+	background-color: #AB65CE;
 	opacity: 0.9;
 	border-radius: 5px;
 	padding: 5px;
 	border: 1px double black;
-	height: 25px;
+	height: 50px;
 	}
 footer div {
 	float: right;
 }
 
-.navi a {
-	color: red;
-}
-
-.navi a:hover {
+.navi li {
 	color: black;
 }
 
+.navi li:hover {
+	color: white;
+	transform:rotate(-1deg);
+	font-size: 1.1em;
+}
+@media (min-width: 980px) {
+.left{
+	width: 49%;
+	float: left;
+	background-color: #D1A6E7;
+	border-radius: 10px;
+	border: 1px double black;
+	margin-right: 5px;
+}
+.right{
+		width: 49%;
+	float: right;
+		background-color: #D1A6E7;
+	border-radius: 10px;
+	border: 1px double black;
+		margin-left: 5px;
+		margin-bottom: 20px;
+}
+.centr{
+	clear: both;
+		background-color: #D1A6E7;
+	border-radius: 10px;
+	border: 1px double black;
+}
+
+
+}
+
+
+@media (max-width: 979px) {
+.left{
+	float: left;
+		background-color: #D1A6E7;
+	border-radius: 10px;
+	border: 1px double black;
+	margin-bottom: 20px;
+}
+.right{
+	float: left;
+		background-color: #D1A6E7;
+	border-radius: 10px;
+	border: 1px double black;
+	margin-bottom: 20px;
+}
+.centr{
+	clear: both;
+		background-color: #D1A6E7;
+	border-radius: 10px;
+	border: 1px double black;
+}
+
+
+}
