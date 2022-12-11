@@ -1,0 +1,134 @@
+
+*{
+	margin: 0;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.contact{
+	float: right;
+	font-family: arial;
+		width: 280px;
+	padding-top: 50px;
+	font-size: 1.5em;
+	}
+.logo{
+	width: 180px;
+	float: left;
+	padding: 0px;
+
+	}
+body {
+	background-image: url(../img/bg.jpg); /* Путь к фоновому изображению */
+    background-color: #c7b39b; /* Цвет фона */
+    background-repeat: repeat;
+    	min-width: 510px;
+	}
+.navi {
+	background-color: #AB65CE;
+	opacity: 0.9;
+	border-radius: 50px;
+	padding: 5px;
+	border: 1px double black;
+	margin-bottom: 25px;
+	height: 50px;	
+	}
+p {font-family: arial;
+	font-size: 20px;
+	}
+
+li {
+	display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
+	}
+header {
+	background-color: #AB65CE;
+	opacity: 0.9;
+	border-radius: 15px;
+	margin-bottom: 25px;
+	border: 1px double black;
+	height: 180px;
+	}
+
+.contents {
+	background-color: #AB65CE;
+	opacity: 0.9;
+	border-radius: 15px;
+	padding: 15px;
+	border: 1px double black;
+	margin-bottom: 25px;
+		}
+footer {
+	background-color: #AB65CE;
+	opacity: 0.9;
+	border-radius: 5px;
+	padding: 5px;
+	border: 1px double black;
+	height: 50px;
+	}
+footer div {
+	float: right;
+}
+
+.navi li {
+	color: black;
+}
+
+.navi li:hover {
+	color: white;
+	transform:rotate(-1deg);
+	font-size: 1.1em;
+}
+@media (min-width: 980px) {
+.left{
+	width: 49%;
+	float: left;
+	background-color: #D1A6E7;
+	border-radius: 10px;
+	border: 1px double black;
+	margin-right: 5px;
+}
+.right{
+		width: 49%;
+	float: right;
+		background-color: #D1A6E7;
+	border-radius: 10px;
+	border: 1px double black;
+		margin-left: 5px;
+		margin-bottom: 20px;
+}
+.centr{
+	clear: both;
+		background-color: #D1A6E7;
+	border-radius: 10px;
+	border: 1px double black;
+}
+
+
+}
+
+
+@media (max-width: 979px) {
+.left{
+	float: left;
+		background-color: #D1A6E7;
+	border-radius: 10px;
+	border: 1px double black;
+	margin-bottom: 20px;
+}
+.right{
+	float: left;
+		background-color: #D1A6E7;
+	border-radius: 10px;
+	border: 1px double black;
+	margin-bottom: 20px;
+}
+.centr{
+	clear: both;
+		background-color: #D1A6E7;
+	border-radius: 10px;
+	border: 1px double black;
+}
+
+
+}
